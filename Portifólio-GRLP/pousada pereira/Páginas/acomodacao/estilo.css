@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'sunday';
+    src: url('Sunday\ Mango.otf') format('opentype'), url('Sunday\ Mango.ttf') format('truetype');
+    
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lobster';
+    src: url('Lobster\ 1.4.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../hotel-na-praia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+    height: 150px;
+    background-color: #C29C51;
+}
+
+.menu-navegacao{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-navegacao a{
+    text-decoration: none;
+    padding: 30px;
+    color: #000;
+
+}
+
+.menu-navegacao a:hover {
+      color: #ffff;
+      text-decoration: underline;
+      transition-duration: 0.3s;
+}
+
+
+main section{
+    margin: 100px 100px 50px 30px;
+    padding: 100px;
+}
+
+#quarto-1{
+    margin-right: 80px;
+    border: 1px solid #C29C51 ;
+    border-radius: 30px;
+}
+
+#quarto-2{
+    margin-right: 80px;
+    border: 1px solid #C29C51 ;
+    border-radius: 30px;
+}
+
+#quarto-3{
+    border: 1px solid #C29C51 ;
+    border-radius: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #8f6104;
+}
+
+
+

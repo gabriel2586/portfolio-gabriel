@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'london';
+    src: url('LondonBetween.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-image: linear-gradient(to right, #041B69, #062A9E) 
+}
+
+nav{
+    display: flex;
+    margin: 50px;
+}
+
+nav a{
+    display: flex;
+    margin: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'london';
+    font-weight: normal;
+    color: #ffff;
+}
+
+nav a:hover{
+    color: #E86317;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+main li{
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #ff5f02, rgb(240, 16, 16));
+    border: 2px solid rgb(134, 43, 0);
+    border-radius: 30px;
+
+}
+
+main li p{
+    margin: 30px;
+    font-size: 19px;
+    font-family:   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    color:  #ffffff;
+
+}

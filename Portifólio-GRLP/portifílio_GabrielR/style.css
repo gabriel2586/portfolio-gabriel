@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'london';
+    src: url('LondonBetween.ttf') format('truetype');
+}
+
+:root{
+    --bg-color-noite: #3a3838f8;
+    --bg-color-tarde: #E63AFC;
+    --bg-color: #041B69;
+    --bg-color-02: #062A9E;
+    --color-titulo: #E86317;
+    --font-type: 'london;'
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, var(--bg-color-02), #DB0C61);    
+
+}
+
+
+#menu-nav{
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+    
+}
+#menu-nav img{
+    width: 250px;
+}
+
+#menu-nav a{
+    margin: 50px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+#menu-nav a:hover{
+    color: #5f0101;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+main{
+    text-align: center;
+}
+
+main img{
+    border-radius: 20%;
+}
+
+#imagem-perfil{
+    margin: 20px 250px 20px 500px;
+    width: 250px;
+    
+}
+
+.txt-principal{
+    margin: 50px;
+    padding: 20px;
+}
+
+#txt-principal h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--font-type);
+    color: var(--color-titulo);
+}
+
+#txt-principal h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: normal;
+    font-family: var(--font-type);
+    color: #e7e7e7;
+    text-shadow: 1px 1px 1px ;
+    
+}
+
+#txt-principal {
+    margin: 100px;
+    padding: 30px;
+    font-size: 18px;
+    background-color: #010f3d;
+    color: #ffff;
+    border: 1px solid black ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.411);
+}
+
+#txt-principal:hover {
+   background-image: linear-gradient(tp right, #322EBC, #00A1B5);
+}
+
+main h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-titulo);
+}
+
+main img{
+    margin: 50px;
+    width: 250px;
+    align-items: center;
+}
+
+div .botao-baixar{
+    margin-top: 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(116, 116, 223), #eb7afa);
+
+}

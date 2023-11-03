@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../hotel-na-praia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+    height: 150px;
+    background-color: #C29C51;
+}
+
+.menu-navegacao{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-navegacao a{
+    text-decoration: none;
+    padding: 30px;
+    color: #000;
+
+}
+
+.menu-navegacao a:hover {
+      color: #ffff;
+      text-decoration: underline;
+      transition-duration: 0.3s;
+}
+
+
+
+
+main p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #946811;
+}
